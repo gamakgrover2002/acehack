@@ -38,10 +38,15 @@ a {
 .registerTitle {
   font-size: 50px;
 }
+
+#home-btn{
+  transition: 0.5s;
+}
 #home-btn:hover {
-  background-color: #7f56da;
+  background-color: #000080;
   color: white;
-  box-shadow: 2px 2px 5px #7f56da;
+  box-shadow: 3px 3px 5px #696969;
+  transition: 0.5s;
 }
 .registerForm {
   margin-top: -50px;
