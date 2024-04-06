@@ -61,10 +61,14 @@ export const PurpleButton = styled(Button)`
 
 export const LightPurpleButton = styled(Button)`
   && {
-    background-color: #7f56da;
+    background-color: #0000FF;
     color: #fff;
+    transition: 0.5s;
     &:hover {
-      background-color: #7a1ccb;
+      background-color: #000080;
+      box-shadow: 3px 3px 3px #696969;
+      transition: 0.5s;
+
     }
   }
 `;

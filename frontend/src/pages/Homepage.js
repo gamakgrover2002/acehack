@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { Container, Grid, Box, Button } from "@mui/material";
 import styled from "styled-components";
 import Students from "../assets/students.svg";
+
+
 import { LightPurpleButton } from "../components/buttonStyles";
 
 const Homepage = () => {
@@ -10,7 +12,7 @@ const Homepage = () => {
     <StyledContainer>
       <Grid container spacing={0}>
         <Grid item xs={12} md={6}>
-          <img
+        <img
             src={Students}
             alt="students"
             style={{ width: "100%" }}
@@ -22,15 +24,16 @@ const Homepage = () => {
             <StyledTitle className="animate__animated animate__slower animate__backInLeft">
               Welcome to
               <br />
-              School Management
+              ClassMaster
               <br />
-              System
             </StyledTitle>
             <StyledText className="animate__animated animate__slower animate__backInLeft">
-              Streamline school management, class organization, and add students
-              and faculty. Seamlessly track attendance, assess performance, and
-              provide feedback. Access records, view marks, and communicate
-              effortlessly.
+            Streamline daily tasks, manage student records, track academic progress, 
+            and communicate effortlessly with parents and staff. Empowering schools 
+            to focus on what truly matters: educating the next generation. <br/>
+
+            Effortlessly manage your school tasks and focus on a education centric development of your students.
+
             </StyledText>
             <StyledBox>
               <StyledLink to="/choose">
@@ -62,8 +65,8 @@ const Homepage = () => {
               </StyledLink>
               <StyledText>
                 Don't have an account?{" "}
-                <Link to="/Adminregister" style={{ color: "#550080" }}>
-                  Sign up
+                <Link to="/Adminregister" style={{ color: "#000080" }}>
+                <b>Sign up</b>
                 </Link>
               </StyledText>
             </StyledBox>
